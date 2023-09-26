@@ -4,7 +4,7 @@ const Home = () => {
   const data = useLoaderData();
   return (
     <>
-      <h3 className="mt-28 text-5xl text-black111 text-center font-bold">
+      <h3 className="mt-14 lg:mt-28 text-5xl text-black111 text-center font-bold">
         I Grow By Helping People In Need
       </h3>
 
@@ -15,7 +15,7 @@ const Home = () => {
           name="search"
           placeholder="Search here...."
         />
-        <button className="bg-red1 text-white px-7 rounded-tr-lg rounded-br-lg">
+        <button className="bg-red1 text-white px-7 rounded-tr-lg rounded-br-lg hover:bg-red-600">
           Search
         </button>
       </div>

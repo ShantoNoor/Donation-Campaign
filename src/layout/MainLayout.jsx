@@ -17,8 +17,8 @@ const MainLayout = () => {
   }, [pathname]);
 
   return (
-    <div className={pathname === "/" ? classes : ""}>
-      <div className="container py-12">
+    <div className={pathname === "/" && classes}>
+      <div className="container py-12 px-6">
         <Navbar></Navbar>
         <Outlet></Outlet>
       </div>
