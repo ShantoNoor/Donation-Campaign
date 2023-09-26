@@ -5,7 +5,7 @@ import { useEffect } from "react";
 const MainLayout = () => {
   const classes =
     "bg-bg1 h-[500px] md:h-[600px] bg-cover bg-no-repeat object-cover bg-center";
-  const { pathname } = useLocation();
+    const { pathname } = useLocation();
 
   useEffect(() => {
     if (pathname === "/") {

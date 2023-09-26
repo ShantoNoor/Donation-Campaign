@@ -7,7 +7,8 @@
     "text_button_bg_color": "#FF444A",
     "picture": "https://picsum.photos/id/367/624/388",
     "title": "Scholarship Program",
-    "description": "Talented students from disadvantaged backgrounds often face financial barriers to pursuing higher education. With your $30 donation to the Scholarship Program, you can provide scholarships to these deserving students. Your support will help them access the education they need to fulfill their dreams and make a positive impact on society."
+    "donate_ammount": "280",
+    "description": "Talented students from disadvantaged backgrounds often face financial barriers to pursuing higher education. With your $280 donation to the Scholarship Program, you can provide scholarships to these deserving students. Your support will help them access the education they need to fulfill their dreams and make a positive impact on society."
   },
   {
     "id": 2,
@@ -17,7 +18,8 @@
     "text_button_bg_color": "#FF444A",
     "picture": "https://picsum.photos/id/444/624/388",
     "title": "Education for All",
-    "description": "Education is a powerful tool for breaking the cycle of poverty and creating opportunities for a better future. With your $30 donation, you can support underprivileged children's access to quality education. Your contribution will fund scholarships, educational materials, and infrastructure improvements, ensuring that every child has a chance to learn and grow."
+    "donate_ammount": "265",
+    "description": "Education is a powerful tool for breaking the cycle of poverty and creating opportunities for a better future. With your $265 donation, you can support underprivileged children's access to quality education. Your contribution will fund scholarships, educational materials, and infrastructure improvements, ensuring that every child has a chance to learn and grow."
   },
   {
     "id": 3,
@@ -27,7 +29,8 @@
     "text_button_bg_color": "#79C23F",
     "picture": "https://picsum.photos/id/945/624/388",
     "title": "Support Homeless",
-    "description": "Homeless individuals often face multiple challenges, and your $35 donation to the Homeless Support Program will provide shelter and support services to help them rebuild their lives. Your support will offer a helping hand to those in need and make a lasting difference."
+    "donate_ammount": "215",
+    "description": "Homeless individuals often face multiple challenges, and your $215 donation to the Homeless Support Program will provide shelter and support services to help them rebuild their lives. Your support will offer a helping hand to those in need and make a lasting difference."
   },
   {
     "id": 4,
@@ -37,7 +40,8 @@
     "text_button_bg_color": "#F87147",
     "picture": "https://picsum.photos/id/23/624/388",
     "title": "Zero Hunger Initiative",
-    "description": "Imagine a world where no one has to worry about where their next meal will come from. Join us in the mission to eradicate hunger from our communities. Your $20 donation to the Zero Hunger Initiative will support comprehensive solutions, including food distribution, nutrition education, and sustainable agriculture projects."
+    "donate_ammount": "300",
+    "description": "Imagine a world where no one has to worry about where their next meal will come from. Join us in the mission to eradicate hunger from our communities. Your $300 donation to the Zero Hunger Initiative will support comprehensive solutions, including food distribution, nutrition education, and sustainable agriculture projects."
   },
   {
     "id": 5,
@@ -47,7 +51,8 @@
     "text_button_bg_color": "#0052FF",
     "picture": "https://picsum.photos/id/159/624/388",
     "title": "Clean Water for Schools",
-    "description": "Education is key to breaking the cycle of poverty, but many schools in underserved areas lack access to clean water. The Clean Water for Schools campaign seeks to change that by providing clean water sources to schools. Your $25 donation will help ensure that students can focus on learning and achieving their dreams without worrying about waterborne illnesses."
+    "donate_ammount": "250",
+    "description": "Education is key to breaking the cycle of poverty, but many schools in underserved areas lack access to clean water. The Clean Water for Schools campaign seeks to change that by providing clean water sources to schools. Your $250 donation will help ensure that students can focus on learning and achieving their dreams without worrying about waterborne illnesses."
   },
   {
     "id": 6,
@@ -57,7 +62,8 @@
     "text_button_bg_color": "#0052FF",
     "picture": "https://picsum.photos/id/483/624/388",
     "title": "Clean Sea Water Initiative",
-    "description": "Our commitment to providing clean water continues with the Clean Sea Water Initiative. We've already made a significant impact, but there are more communities waiting for our help. With your $25 donation, we can expand our reach and bring clean water to even more people. Join us in this mission to make clean water accessible to all, one community at a time."
+    "donate_ammount": "210",
+    "description": "Our commitment to providing clean water continues with the Clean Sea Water Initiative. We've already made a significant impact, but there are more communities waiting for our help. With your $210 donation, we can expand our reach and bring clean water to even more people. Join us in this mission to make clean water accessible to all, one community at a time."
   },
   {
     "id": 7,
@@ -67,7 +73,8 @@
     "text_button_bg_color": "#FF444A",
     "picture": "https://picsum.photos/id/180/624/388",
     "title": "Quality Education Drive",
-    "description": "Quality education is a fundamental right that should be accessible to all children. Your $30 donation will support the pursuit of quality education for every child, regardless of their background. Join us in creating a world where every child has the opportunity to reach their full potential through education."
+    "donate_ammount": "230",
+    "description": "Quality education is a fundamental right that should be accessible to all children. Your $230 donation will support the pursuit of quality education for every child, regardless of their background. Join us in creating a world where every child has the opportunity to reach their full potential through education."
   },
   {
     "id": 8,
@@ -77,7 +84,8 @@
     "text_button_bg_color": "#F87147",
     "picture": "https://picsum.photos/id/686/624/388",
     "title": "Fight Against Hunger",
-    "description": "Hunger knows no boundaries, and it's a problem that affects people in every corner of the globe. Your $20 donation to the Fight Against Hunger campaign will extend your hand to those in need. Together, we can make a difference and help end hunger in our communities."
+    "donate_ammount": "350",
+    "description": "Hunger knows no boundaries, and it's a problem that affects people in every corner of the globe. Your $350 donation to the Fight Against Hunger campaign will extend your hand to those in need. Together, we can make a difference and help end hunger in our communities."
   },
   {
     "id": 9,
@@ -87,7 +95,8 @@
     "text_button_bg_color": "#0052FF",
     "picture": "https://picsum.photos/id/385/624/388",
     "title": "Clean Water Initiative",
-    "description": "Clean and safe drinking water is a basic human necessity, yet millions of people around the world lack access to it. Our Clean Water Initiative aims to change that. By donating just $25, you can help us provide clean and safe drinking water to communities in need. Your contribution will fund water purification systems, wells, and infrastructure improvements, ensuring that families have access to this vital resource."
+    "donate_ammount": "230",
+    "description": "Clean and safe drinking water is a basic human necessity, yet millions of people around the world lack access to it. Our Clean Water Initiative aims to change that. By donating just $230, you can help us provide clean and safe drinking water to communities in need. Your contribution will fund water purification systems, wells, and infrastructure improvements, ensuring that families have access to this vital resource."
   },
   {
     "id": 10,
@@ -97,7 +106,8 @@
     "text_button_bg_color": "#F87147",
     "picture": "https://picsum.photos/id/1080/624/388",
     "title": "Food for All",
-    "description": "Access to nutritious meals is a basic human right, yet many families face food insecurity. With your $20 donation to the Food for All campaign, you can help provide nutritious meals to those in need. Your support will nourish bodies, improve health, and bring hope to struggling families."
+    "donate_ammount": "350",
+    "description": "Access to nutritious meals is a basic human right, yet many families face food insecurity. With your $350 donation to the Food for All campaign, you can help provide nutritious meals to those in need. Your support will nourish bodies, improve health, and bring hope to struggling families."
   },
 
   {
@@ -108,7 +118,8 @@
     "text_button_bg_color": "#79C23F",
     "picture": "https://picsum.photos/id/78/624/388",
     "title": "Shelter for Homeless",
-    "description": "Homelessness is a pressing issue, and your $35 donation to the Shelter for Homeless campaign can make a significant impact. Your contribution will provide safe and warm shelters for individuals and families experiencing homelessness. Together, we can offer them a chance for a better life."
+    "donate_ammount": "210",
+    "description": "Homelessness is a pressing issue, and your $210 donation to the Shelter for Homeless campaign can make a significant impact. Your contribution will provide safe and warm shelters for individuals and families experiencing homelessness. Together, we can offer them a chance for a better life."
   },
   {
     "id": 12,
@@ -118,7 +129,8 @@
     "text_button_bg_color": "#0052FF",
     "picture": "https://picsum.photos/id/509/624/388",
     "title": "Clean Water for Villages",
-    "description": "In remote villages around the world, clean water remains a distant dream. With your support and a $25 donation, we can make this dream a reality. Clean Water for Villages focuses on reaching those underserved communities, ensuring they have access to clean water sources. Your contribution will impact lives, improve health, and create brighter futures for countless families."
+    "donate_ammount": "255",
+    "description": "In remote villages around the world, clean water remains a distant dream. With your support and a $255 donation, we can make this dream a reality. Clean Water for Villages focuses on reaching those underserved communities, ensuring they have access to clean water sources. Your contribution will impact lives, improve health, and create brighter futures for countless families."
   },
   {
     "id": 13,
@@ -128,7 +140,8 @@
     "text_button_bg_color": "#79C23F",
     "picture": "https://picsum.photos/id/946/624/388",
     "title": "Safe Haven Campaign",
-    "description": "Creating safe havens for homeless individuals and families is crucial to breaking the cycle of homelessness. Your $35 donation to the Safe Haven Campaign will support the construction and operation of shelters, along with essential support services. Join us in providing a pathway to stability and independence."
+    "donate_ammount": "315",
+    "description": "Creating safe havens for homeless individuals and families is crucial to breaking the cycle of homelessness. Your $315 donation to the Safe Haven Campaign will support the construction and operation of shelters, along with essential support services. Join us in providing a pathway to stability and independence."
   },
   {
     "id": 14,
@@ -138,7 +151,8 @@
     "text_button_bg_color": "#F87147",
     "picture": "https://picsum.photos/id/835/624/388",
     "title": "Hunger Relief Program",
-    "description": "Hunger and food insecurity continue to plague communities worldwide. Join us in the fight against hunger by donating $20 to the Hunger Relief Program. Your contribution will provide food assistance, support local food banks, and fund initiatives to ensure that no one goes to bed hungry."
+    "donate_ammount": "235",
+    "description": "Hunger and food insecurity continue to plague communities worldwide. Join us in the fight against hunger by donating $235 to the Hunger Relief Program. Your contribution will provide food assistance, support local food banks, and fund initiatives to ensure that no one goes to bed hungry."
   },
   {
     "id": 15,
@@ -148,7 +162,8 @@
     "text_button_bg_color": "#FF444A",
     "picture": "https://picsum.photos/id/743/624/388",
     "title": "Education Empowerment",
-    "description": "Empowering children through education is the key to building stronger communities and brighter futures. Your $30 donation to the Education Empowerment campaign will provide educational resources, mentorship programs, and access to extracurricular activities. Join us in shaping the next generation of leaders."
+    "donate_ammount": "335",
+    "description": "Empowering children through education is the key to building stronger communities and brighter futures. Your $335 donation to the Education Empowerment campaign will provide educational resources, mentorship programs, and access to extracurricular activities. Join us in shaping the next generation of leaders."
   },
   {
     "id": 16,
@@ -158,6 +173,7 @@
     "text_button_bg_color": "#79C23F",
     "picture": "https://picsum.photos/id/398/624/388",
     "title": "Emergency Shelter Relief",
-    "description": "Responding to emergencies with temporary shelters is crucial in disaster situations. Your $35 donation to the Emergency Shelter Relief campaign will help us quickly deploy temporary shelters to disaster-affected areas, providing immediate relief to those who have lost their homes."
+    "donate_ammount": "425",
+    "description": "Responding to emergencies with temporary shelters is crucial in disaster situations. Your $425 donation to the Emergency Shelter Relief campaign will help us quickly deploy temporary shelters to disaster-affected areas, providing immediate relief to those who have lost their homes."
   }
 ]

@@ -1,7 +1,9 @@
-import { useLoaderData } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+import useGetData from "../hooks/useGetData";
 
 const Home = () => {
-  const data = useLoaderData();
+  const data = useGetData();
+  const navigate = useNavigate();
   return (
     <>
       <h3 className="mt-14 lg:mt-28 text-3xl md:text-5xl text-black111 text-center font-bold">
@@ -25,8 +27,9 @@ const Home = () => {
           <div
             className="rounded-tl-lg rounded-tr-lg overflow-hidden hover:-translate-y-2 duration-300 cursor-pointer hover:shadow-lg active:-translate-y-1 active:shadow-md"
             key={item.id}
+            onClick={() => navigate(`/donation/${item.id}`)}
           >
-            <img src={item.picture} alt="" />
+            <img src={item.picture} alt={`Picture of ${item.title}`} />
             <div
               style={{
                 padding: "16px",
