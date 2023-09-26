@@ -4,9 +4,9 @@ const Home = () => {
   const data = useLoaderData();
   return (
     <>
-      <div>Home</div>
+      <div >Home</div>
       <div className="grid grid-cols-4">
-        {data.map((item) => (
+        {data?.map((item) => (
           <div key={item.id}>
             <h2>{item.title}</h2>
             <img src={item.picture} alt="" />

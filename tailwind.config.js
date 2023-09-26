@@ -11,6 +11,9 @@ export default {
         black117: "rgba(11, 11, 11, 0.7)",
       },
       backgroundColor: {},
+      backgroundImage: {
+        bg1: "linear-gradient(to bottom, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), url('./assets/bgimage.jpeg')",
+      },
     },
   },
   plugins: [],
