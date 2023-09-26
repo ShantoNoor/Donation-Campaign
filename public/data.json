@@ -1,0 +1,132 @@
+{
+  "categories": [
+    {
+      "category": "Water",
+      "category_bg_color": "#3498DB",
+      "card_bg_color": "#EFEFEF",
+      "text_button_bg_color": "#333333",
+      "donation_campaigns": [
+        {
+          "picture": "image_url_1.jpg",
+          "title": "Clean Water Initiative",
+          "description": "Help provide clean and safe drinking water to communities in need.",
+          "price": "$25"
+        },
+        {
+          "picture": "image_url_5.jpg",
+          "title": "Clean Water Initiative 2",
+          "description": "A second project to provide clean water to more communities.",
+          "price": "$25"
+        },
+        {
+          "picture": "image_url_9.jpg",
+          "title": "Clean Water for Villages",
+          "description": "Bring clean water to remote villages for healthier lives.",
+          "price": "$25"
+        },
+        {
+          "picture": "image_url_10.jpg",
+          "title": "Clean Water for Schools",
+          "description": "Provide clean water sources for schools in underserved areas.",
+          "price": "$25"
+        }
+      ]
+    },
+    {
+      "category": "Education",
+      "category_bg_color": "#E74C3C",
+      "card_bg_color": "#F5F5F5",
+      "text_button_bg_color": "#555555",
+      "donation_campaigns": [
+        {
+          "picture": "image_url_2.jpg",
+          "title": "Education for All",
+          "description": "Support underprivileged children's access to quality education.",
+          "price": "$30"
+        },
+        {
+          "picture": "image_url_6.jpg",
+          "title": "Education Empowerment",
+          "description": "Empower children through education for a brighter future.",
+          "price": "$30"
+        },
+        {
+          "picture": "image_url_10.jpg",
+          "title": "Quality Education Drive",
+          "description": "Support the pursuit of quality education for all children.",
+          "price": "$30"
+        },
+        {
+          "picture": "image_url_11.jpg",
+          "title": "Scholarship Program",
+          "description": "Provide scholarships to talented students in need.",
+          "price": "$30"
+        }
+      ]
+    },
+    {
+      "category": "Hunger",
+      "category_bg_color": "#F39C12",
+      "card_bg_color": "#FFFFFF",
+      "text_button_bg_color": "#777777",
+      "donation_campaigns": [
+        {
+          "picture": "image_url_3.jpg",
+          "title": "Hunger Relief Program",
+          "description": "Join us in the fight against hunger and food insecurity in our communities.",
+          "price": "$20"
+        },
+        {
+          "picture": "image_url_7.jpg",
+          "title": "Fight Against Hunger",
+          "description": "Extend your hand to those in need and help end hunger.",
+          "price": "$20"
+        },
+        {
+          "picture": "image_url_11.jpg",
+          "title": "Zero Hunger Initiative",
+          "description": "Join the mission to eradicate hunger from our communities.",
+          "price": "$20"
+        },
+        {
+          "picture": "image_url_12.jpg",
+          "title": "Food for All",
+          "description": "Provide nutritious meals to families facing food insecurity.",
+          "price": "$20"
+        }
+      ]
+    },
+    {
+      "category": "Shelter",
+      "category_bg_color": "#2ECC71",
+      "card_bg_color": "#EFEFEF",
+      "text_button_bg_color": "#333333",
+      "donation_campaigns": [
+        {
+          "picture": "image_url_4.jpg",
+          "title": "Shelter for Homeless",
+          "description": "Provide safe and warm shelters for those experiencing homelessness.",
+          "price": "$35"
+        },
+        {
+          "picture": "image_url_8.jpg",
+          "title": "Safe Haven Campaign",
+          "description": "Create safe havens for homeless individuals and families.",
+          "price": "$35"
+        },
+        {
+          "picture": "image_url_12.jpg",
+          "title": "Homeless Support Program",
+          "description": "Provide shelter and support services to homeless individuals.",
+          "price": "$35"
+        },
+        {
+          "picture": "image_url_1.jpg",
+          "title": "Emergency Shelter Relief",
+          "description": "Respond to emergencies with temporary shelters for disaster victims.",
+          "price": "$35"
+        }
+      ]
+    }
+  ]
+}
