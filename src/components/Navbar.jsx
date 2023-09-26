@@ -36,7 +36,7 @@ const Navbar = () => {
                   ? "pending"
                   : isActive
                   ? "active text-red1 underline font-bold"
-                  : ""
+                  : "hover:text-red1 hover:underline duration-300"
               }
             >
               {link.text}

@@ -4,7 +4,7 @@ import { useEffect } from "react";
 
 const MainLayout = () => {
   const classes =
-    "bg-bg1 h-[600px] bg-cover bg-no-repeat object-cover bg-center";
+    "bg-bg1 h-[500px] md:h-[600px] bg-cover bg-no-repeat object-cover bg-center";
   const { pathname } = useLocation();
 
   useEffect(() => {
@@ -17,7 +17,7 @@ const MainLayout = () => {
   }, [pathname]);
 
   return (
-    <div className={pathname === "/" && classes}>
+    <div className={pathname === "/" ? classes : ""}>
       <div className="container py-12 px-6">
         <Navbar></Navbar>
         <Outlet></Outlet>
