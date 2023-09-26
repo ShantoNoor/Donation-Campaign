@@ -1,13 +1,13 @@
-# Course-Registration
+# donation-campaign
 
 ## Live Link
 
-Netlify: [https://course-registration900.netlify.app/](https://course-registration900.netlify.app/)
+Netlify: [https://donation-campaign900.netlify.app/](https://donation-campaign900.netlify.app/)
 
-Surge: [http://course-registration900.surge.sh/](http://course-registration900.surge.sh/)
+Surge: [http://donation-campaign900.surge.sh/](http://donation-campaign900.surge.sh/)
 
-##  Questions
+## Project features 
 
-- Add at least 3 Project features 
-  
-- Discuss how you managed the state in your assignment project.
+- Using react-router-dom for dynamic routing(no reload).
+- Project is sturctured with easily maintainable react component.
+- Tailwind CSS is used for styling.
