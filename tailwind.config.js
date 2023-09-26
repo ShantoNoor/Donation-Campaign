@@ -9,6 +9,7 @@ export default {
       colors: {
         red1: "#FF444A",
         black1: "rgba(11, 11, 11, 1)",
+        black2: "#0B0B0B",
         black117: "rgba(11, 11, 11, 0.7)",
         black111: "rgba(11, 11, 11, 1)",
       },
