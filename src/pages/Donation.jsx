@@ -59,7 +59,11 @@ const Donation = () => {
                     style={{
                       backgroundColor: item.text_button_bg_color,
                     }}
-                    onClick={() => navigate(`/donation/${item.id}`)}
+                    onClick={() =>
+                      navigate(`/donation/${item.id}`, {
+                        state: { title: item.title },
+                      })
+                    }
                   >
                     View Details
                   </button>

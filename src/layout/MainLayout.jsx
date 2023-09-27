@@ -5,7 +5,7 @@ import { useEffect } from "react";
 const MainLayout = () => {
   const classes =
     "bg-bg1 h-[500px] md:h-[600px] bg-cover bg-no-repeat object-cover bg-center";
-    const { pathname } = useLocation();
+  const { pathname, state } = useLocation();
 
   useEffect(() => {
     if (pathname === "/") {
@@ -14,7 +14,9 @@ const MainLayout = () => {
       document.title =
         pathname.slice(1, -1).toUpperCase() + " | Donation Campaign";
     }
-  }, [pathname]);
+
+    if (state) document.title = state.title + " | Donation Campaign";
+  }, [pathname, state]);
 
   return (
     <div className={pathname === "/" ? classes : ""}>

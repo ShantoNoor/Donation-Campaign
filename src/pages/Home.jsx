@@ -58,7 +58,9 @@ const Home = () => {
           <div
             className="rounded-tl-lg rounded-tr-lg overflow-hidden hover:-translate-y-2 duration-300 cursor-pointer hover:shadow-lg active:-translate-y-1 active:shadow-md"
             key={item.id}
-            onClick={() => navigate(`/donation/${item.id}`)}
+            onClick={() =>
+              navigate(`/donation/${item.id}`, { state: { title: item.title } })
+            }
           >
             <img src={item.picture} alt={`Picture of ${item.title}`} />
             <div
