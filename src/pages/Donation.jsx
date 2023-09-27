@@ -8,7 +8,7 @@ const Donation = () => {
   const donated_list = data.filter((item) => localData.includes(item.id));
   const navigate = useNavigate();
 
-  return (
+  return donated_list.length > 0 ? (
     <div className="mt-20 grid grid-cols-1 lg:grid-cols-2 gap-6 justify-items-start">
       {donated_list.map((item) => {
         return (
@@ -44,7 +44,7 @@ const Donation = () => {
                     fontWeight: "600",
                   }}
                 >
-                  ${item.donate_ammount}.00
+                  ${item.price}.00
                 </h2>
               </div>
               <div>
@@ -63,7 +63,13 @@ const Donation = () => {
         );
       })}
     </div>
+  ) : (
+    <p className="mt-20 text-4xl lg:text-6xl font-extrabold text-center text-red1 max-w-[76%] mx-auto leading-[50px] lg:leading-[75px]">
+      ☘️ Please, Donate and Make the Planet, a better place of others !
+    </p>
   );
+    
+
 };
 
 export default Donation;

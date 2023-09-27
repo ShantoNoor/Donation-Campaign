@@ -46,7 +46,8 @@ const Details = () => {
       {data ? (
         <div className="mt-20">
           <div className="rounded-lg overflow-hidden relative">
-            <img className="w-full object-cover"
+            <img
+              className="w-full object-cover"
               src={
                 data.picture.split("/").slice(0, -2).join("/") + "/1320/700/"
               }
@@ -63,7 +64,7 @@ const Details = () => {
                 }}
                 onClick={() => handleClick(data.id)}
               >
-                Donate ${data.donate_ammount}
+                Donate ${data.price}
               </button>
             </div>
           </div>
