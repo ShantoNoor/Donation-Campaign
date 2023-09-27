@@ -14,7 +14,7 @@ const Details = () => {
 
     if (donate_list.find((d_id) => d_id === id)) {
       toast.success("Already Donated! 😇", {
-        position: "top-right",
+        position: "top-center",
         autoClose: 5000,
         hideProgressBar: false,
         closeOnClick: true,
@@ -30,7 +30,7 @@ const Details = () => {
     setValueInLocalStorage(donate_list, "donate_list");
 
     toast.success("Donate Successful! 😇", {
-      position: "top-right",
+      position: "top-center",
       autoClose: 5000,
       hideProgressBar: false,
       closeOnClick: true,
