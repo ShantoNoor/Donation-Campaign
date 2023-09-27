@@ -4,6 +4,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import setValueInLocalStorage from "../utility/setValueInLocalStorage";
 import getValueFromLocalStorage from "../utility/getValueFromLocalStorage";
+import { Link } from "react-router-dom";
 
 const Details = () => {
   const { id } = useParams();
@@ -48,9 +49,7 @@ const Details = () => {
           <div className="rounded-lg overflow-hidden relative">
             <img
               className="w-full object-cover"
-              src={
-                data.picture3
-              }
+              src={data.picture3}
               alt={`Picture of ${data.title}`}
             />
             <div
@@ -74,7 +73,17 @@ const Details = () => {
           <p className="text-black117 leading-[30px]">{data.description}</p>
         </div>
       ) : (
-        <div></div>
+        <>
+          <h3 className="mt-20 lg:mt-28 text-3xl md:text-5xl text-red1 text-center font-bold">
+            🚫 Unable To Find Details About ID: {id}
+          </h3>
+          <Link
+            className="mt-14 text-center text-2xl block text-blue-700 underline uppercase"
+            to="/"
+          >
+            Go Home 🏠
+          </Link>
+        </>
       )}
       <ToastContainer></ToastContainer>
     </>
