@@ -3,11 +3,12 @@ import * as ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
 import MainLayout from "./layout/MainLayout";
-import Home from "./pages/Home";
-import Donation from "./pages/Donation";
-import Statistics from "./pages/Statistics";
-import Details from "./pages/Details";
-import ErrorPage from "./pages/ErrorPage";
+import { lazy } from "react";
+const Home = lazy(() => import("./pages/Home"));
+const Donation = lazy(() => import("./pages/Donation"));
+const Statistics = lazy(() => import("./pages/Statistics"));
+const Details = lazy(() => import("./pages/Details"));
+const ErrorPage = lazy(() => import("./pages/ErrorPage"));
 
 const router = createBrowserRouter([
   {

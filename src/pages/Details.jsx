@@ -4,6 +4,7 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import setValueInLocalStorage from "../utility/setValueInLocalStorage";
 import getValueFromLocalStorage from "../utility/getValueFromLocalStorage";
+import Spinner from "../components/Spinner";
 
 const Details = () => {
   const { id } = useParams();
@@ -72,14 +73,7 @@ const Details = () => {
           <p className="text-black117 leading-[30px]">{data.description}</p>
         </div>
       ) : (
-        <div
-          className="mt-20 mx-auto block h-56 w-56 animate-spin rounded-full border-[15px] border-solid border-current border-r-transparent align-[-0.125em] motion-reduce:animate-[spin_1.5s_linear_infinite]"
-          role="status"
-        >
-          <span className="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]">
-            Loading...
-          </span>
-        </div>
+        <Spinner></Spinner>
       )}
       <ToastContainer></ToastContainer>
     </>

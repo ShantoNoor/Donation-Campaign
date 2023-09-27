@@ -1,6 +1,8 @@
 import { Outlet, useLocation } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import { useEffect } from "react";
+import { Suspense } from "react";
+import Spinner from "../components/Spinner";
 
 const MainLayout = () => {
   const classes =
@@ -22,7 +24,9 @@ const MainLayout = () => {
     <div className={pathname === "/" ? classes : ""}>
       <div className="container py-12 px-6">
         <Navbar></Navbar>
-        <Outlet></Outlet>
+        <Suspense fallback={<Spinner></Spinner>}>
+          <Outlet></Outlet>
+        </Suspense>
       </div>
     </div>
   );
