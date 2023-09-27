@@ -1,9 +1,30 @@
 import { useNavigate } from "react-router-dom";
 import useGetData from "../hooks/useGetData";
+import { useEffect, useRef, useState } from "react";
 
 const Home = () => {
   const data = useGetData();
   const navigate = useNavigate();
+  const inputText = useRef();
+  const [filteredData, setFilteredData] = useState(data);
+
+  useEffect(() => {
+    setFilteredData(data);
+  }, [data]);
+
+  const handleSearch = () => {
+    const searchText = inputText.current.value;
+    if (searchText === "") {
+      setFilteredData(data);
+    } else {
+      setFilteredData(
+        data.filter((item) =>
+          item.category.toLowerCase().includes(searchText.toLowerCase())
+        )
+      );
+    }
+  };
+
   return (
     <>
       <h3 className="mt-14 lg:mt-28 text-3xl md:text-5xl text-black111 text-center font-bold">
@@ -16,14 +37,24 @@ const Home = () => {
           type="search"
           name="search"
           placeholder="Search here...."
+          ref={inputText}
+          onChange={() => {
+            inputText.current.value === "" && handleSearch();
+          }}
+          onKeyDown={(e) => {
+            e.key === "Enter" && handleSearch();
+          }}
         />
-        <button className="bg-red1 text-white px-7 rounded-tr-lg rounded-br-lg hover:bg-red-600">
+        <button
+          className="bg-red1 text-white px-7 rounded-tr-lg rounded-br-lg hover:bg-red-600"
+          onClick={handleSearch}
+        >
           Search
         </button>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-[200px] md:mt-[300px] gap-6 justify-items-center">
-        {data?.map((item) => (
+        {filteredData?.map((item) => (
           <div
             className="rounded-tl-lg rounded-tr-lg overflow-hidden hover:-translate-y-2 duration-300 cursor-pointer hover:shadow-lg active:-translate-y-1 active:shadow-md"
             key={item.id}
