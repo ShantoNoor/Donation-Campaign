@@ -49,7 +49,7 @@ const Details = () => {
             <img
               className="w-full object-cover"
               src={
-                data.picture.split("/").slice(0, -2).join("/") + "/1320/700/"
+                data.picture3
               }
               alt={`Picture of ${data.title}`}
             />

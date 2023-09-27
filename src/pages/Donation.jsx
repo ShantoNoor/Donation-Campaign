@@ -24,7 +24,7 @@ const Donation = () => {
               <img
                 className="md:w-[220px] object-cover"
                 src={
-                  item.picture.split("/").slice(0, -2).join("/") + "/660/600/"
+                  item.picture2
                 }
                 alt={`Picture of ${item.title}`}
               />
