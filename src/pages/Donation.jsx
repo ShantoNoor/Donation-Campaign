@@ -1,3 +1,4 @@
+import { useNavigate } from "react-router-dom";
 import useGetData from "../hooks/useGetData";
 import getValueFromLocalStorage from "../utility/getValueFromLocalStorage";
 
@@ -5,6 +6,7 @@ const Donation = () => {
   const localData = getValueFromLocalStorage("donate_list");
   const data = useGetData();
   const donated_list = data.filter((item) => localData.includes(item.id));
+  const navigate = useNavigate();
 
   return (
     <div className="mt-20 grid grid-cols-1 lg:grid-cols-2 gap-6 justify-items-start">
@@ -16,10 +18,11 @@ const Donation = () => {
             style={{ backgroundColor: item.card_bg_color }}
           >
             <img
-              src={item.picture.split("/").slice(0, -2).join("/") + "/220/200/"}
+              className="md:w-[220px] object-cover"
+              src={item.picture.split("/").slice(0, -2).join("/") + "/660/600/"}
               alt={`Picture of ${item.title}`}
             />
-            <div className="flex flex-col justify-between py-6 ml-8 md:ml-0">
+            <div className="flex flex-col justify-between gap-4 py-6 ml-8 md:ml-0">
               <div>
                 <span
                   style={{
@@ -32,7 +35,7 @@ const Donation = () => {
                   {item.category}
                 </span>
 
-                <h1 className="text-2xl font-semibold text-black2 my-1">
+                <h1 className="text-2xl font-semibold text-black2 my-2">
                   {item.title}
                 </h1>
                 <h2
@@ -50,7 +53,7 @@ const Donation = () => {
                   style={{
                     backgroundColor: item.text_button_bg_color,
                   }}
-                  // onClick={() => handleClick(data.id)}
+                  onClick={() => navigate(`/donation/${item.id}`)}
                 >
                   View Details
                 </button>

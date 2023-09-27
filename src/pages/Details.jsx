@@ -46,7 +46,7 @@ const Details = () => {
       {data ? (
         <div className="mt-20">
           <div className="rounded-lg overflow-hidden relative">
-            <img
+            <img className="w-full object-cover"
               src={
                 data.picture.split("/").slice(0, -2).join("/") + "/1320/700/"
               }

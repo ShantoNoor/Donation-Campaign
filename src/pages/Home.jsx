@@ -12,7 +12,7 @@ const Home = () => {
 
       <div className="flex mt-10 justify-center">
         <input
-          className="border border-[#DEDEDE] h-12 w-[470px] p-4 rounded-tl-lg rounded-bl-lg"
+          className="border border-[#DEDEDE] h-12 w-[60%] md:w-[470px] p-4 rounded-tl-lg rounded-bl-lg"
           type="search"
           name="search"
           placeholder="Search here...."
