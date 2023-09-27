@@ -4,7 +4,6 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import setValueInLocalStorage from "../utility/setValueInLocalStorage";
 import getValueFromLocalStorage from "../utility/getValueFromLocalStorage";
-import { Link } from "react-router-dom";
 
 const Details = () => {
   const { id } = useParams();
@@ -73,17 +72,14 @@ const Details = () => {
           <p className="text-black117 leading-[30px]">{data.description}</p>
         </div>
       ) : (
-        <>
-          <h3 className="mt-20 lg:mt-28 text-3xl md:text-5xl text-red1 text-center font-bold">
-            🚫 Unable To Find Details About ID: {id}
-          </h3>
-          <Link
-            className="mt-14 text-center text-2xl block text-blue-700 underline uppercase"
-            to="/"
-          >
-            Go Home 🏠
-          </Link>
-        </>
+        <div
+          className="mt-20 mx-auto block h-56 w-56 animate-spin rounded-full border-[15px] border-solid border-current border-r-transparent align-[-0.125em] motion-reduce:animate-[spin_1.5s_linear_infinite]"
+          role="status"
+        >
+          <span className="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]">
+            Loading...
+          </span>
+        </div>
       )}
       <ToastContainer></ToastContainer>
     </>
